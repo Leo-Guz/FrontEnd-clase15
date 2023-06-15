@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.header-1 {
+    display: none;
+}
+.header-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F0A83E;
+    height: 50px;
+}
+nav {
+    display: none;
+}
+
+.header-2 > img {
+    width: 166px;
+    height: 23px;
+}
+
+.header-2 i {
+    display: contents;
+    font-size: 2em;
+    color: white;
+}
+.banner, .productos, .contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+.banner {
+    height: 400px;
+    background-image: url('../img/bowl.png');
+    background-size: cover;
+}
+
+.banner p {
+    font-size: 30px;
+    background-color: white;
+    margin: 20px;
+}
+
+.banner button {
+    background-color: #F0A83E;
+    color: white;
+    margin: 20px;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+
+.contacto {
+    flex-wrap: wrap;
+}
+
+.contacto p {
+    width: 100%;
+    border-radius: 15px;
+    background-color: #3C2313;
+    margin: 10px;
+    color: white;
+    padding: 15px;
+    font-size: 9px;
+}
+.contacto button {
+    padding: 15px;
+    background-color:#F0A83E;
+    border-radius: 15px;
+    width: 30%;
+    margin: 0 10px;
+}
+
+.pre-footer {
+    height: 60px;
+    background-color: #F0A83E;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pre-footer * {
+    padding: 15px;
+    border-radius: 15px;
+}
+.pre-footer button {
+    background-color:#3C2313;
+    color: white;
+}
+.pre-footer p {
+    background-color:white;
+    color: black;
+}
+footer {
+    background-color: #3C2313;
+    color: white;
+}
